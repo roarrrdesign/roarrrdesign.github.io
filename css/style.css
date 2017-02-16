@@ -1,0 +1,206 @@
+body {
+      background-image: url("../img/bgimage.png");
+      background-repeat: no-repeat;
+    background-color: #14181f;
+ 
+}
+
+
+#wrapper {
+
+}
+
+
+@font-face {
+    font-family:caviardreams;
+    src:url(../fonts/caviardreamsregular.ttf)
+}
+
+@font-face {
+    font-family:caviardreamsbold;
+    src:url(../fonts/caviardreamsbold.ttf)
+}
+
+@font-face {
+    font-family:basic;
+    src:url(../fonts/basic.ttf)
+}
+
+#header {
+    height:80px;
+}
+
+#navstyle {
+    text-align: center;
+    padding-top:25px;
+    font-size: 18px;
+   word-spacing: 20px;
+   font-family: caviardreams;
+   text-shadow: -1px 0 #14181f, 0 1px #14181f, 1px 0 #14181f, 0 -1px #14181f;
+}
+
+
+a.navlinks:link {color: #ffffff; text-decoration: none; }
+a.navlinks:active {color: #aa243c; text-decoration: none; }
+a.navlinks:visited {color: #ffffff; text-decoration: none; }
+a.navlinks:hover {color: #aa243c; text-decoration: none; }
+
+a.currentpage:link{
+    color: #aa243c; text-decoration:none;
+}
+
+a.currentpage:active{
+    color: #aa243c; text-decoration:none;
+}
+
+
+a.currentpage:visited{
+    color: #aa243c; text-decoration:none;
+}
+
+
+a.currentpage:hover{
+    color: #aa243c; text-decoration:none;
+}
+
+#roarstyledark {
+    text-align: center;
+    padding-top:20px;
+    font-size: 40px;
+    font-family: caviardreams;
+    font-color: #14181f;
+}
+
+.mainsection {
+    padding-top: 120px;
+    min-height: 920px;
+
+}
+
+.mainsectionsubpage {
+    padding-top: 70px;
+    min-height: 920px;
+
+}
+#message {
+padding-left: 130px;
+        color: #ffffff;
+    font-size: 50px;
+    text-align: left;
+    font-family: caviardreamsbold;
+    text-shadow: -1px 0 #14181f, 0 1px #14181f, 1px 0 #14181f, 0 -1px #14181f;
+}
+
+#submsgstyle {
+    font-size: 15px;
+    font-family: basic;
+}
+
+.findmore {
+    margin-top:50px;
+    font-size: 20px;
+    font-family: basic;
+    color: #aa243c;
+
+}
+
+a.findmorelink:link {
+    color: #aa243c;
+}
+
+a.findmorelink:active {
+    color: #aa243c;
+}
+
+a.findmorelink:visited {
+    color: #aa243c;
+}
+
+a.findmorelink:hover {
+    color: #fa002d;
+}
+
+
+
+
+#social {
+    height: 71px;
+}
+
+.footerstyle {
+ background-color: #11141a;
+ width: 100%;
+ text-align: center;
+color: #ffffff;
+font-family: caviardreams;
+font-size: 12px;
+height: 22px;
+}
+
+.middlesection {
+    background-color: #14181f;
+    min-width: 300px;
+    max-width: 1400px;
+    min-height: 660px;
+    margin:auto;
+    border: 5px solid #ffffff;
+}
+
+.header {
+    font-family: caviardreams;
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.smallheader {
+    color: #ffffff;
+    font-size: 40px;
+    font-family: caviardreams;
+}
+
+.paragraphtext {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: caviardreams;
+}
+
+.aboutstyle {
+    padding: 20px;
+}
+
+.portfoliopreview {
+
+}
+
+.portofliostyle {
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.benefits {
+    text-align:center;
+    font-family: caviardreams;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#benefitsalign {
+    padding-top: 50px;
+}
+
+.contactus {
+    padding: 10px;
+    text-align:center;
+    font-family: caviardreams;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.portfoliodivider {
+        border: 1 solid white;
+}
